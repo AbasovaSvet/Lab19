@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="26.0" layoutY="100.0" mnemonicParsing="false" onAction="#square" text="Площади" />
+      <Label fx:id="rez" layoutX="26.0" layoutY="166.0" text="Результат  " />
+      <TextField fx:id="a" layoutX="26.0" layoutY="32.0" prefHeight="8.0" prefWidth="74.0" promptText="a" />
+      <TextField fx:id="b" layoutX="124.0" layoutY="32.0" prefHeight="17.0" prefWidth="74.0" promptText="b" />
+      <TextField fx:id="c" layoutX="226.0" layoutY="32.0" prefHeight="25.0" prefWidth="74.0" promptText="c" />
+   </children>
+</AnchorPane>
